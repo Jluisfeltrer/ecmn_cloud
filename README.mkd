@@ -1,0 +1,28 @@
+# Clone repository
+git clone https://github.com/Jluisfeltrer/ecmn_cloud.git 
+
+# Create Virtual enviroment
+python3 -m venv .venv
+
+# Activate Virtual Enviroment
+source .venv/bin/activate (MacOs)
+
+
+# Install Dependencies
+pip install -r requirements.txt
+
+# Import Pandas
+import pandas as pd
+
+# Read .csv file
+df = pd.read_csv('Ruta completa del archivo.csv')
+
+# Execute EDA
+* First Data evaluation.
+* Clean the data (Handle missing values, drop duplicates)
+* Basic metrics (median, mode)(Visualize)
+* PCA(Visualize cummulative explained Cov)
+* Clustering (client segmentation)
+* Cualitative Individual Analysis (Use AI)
+
+# Merge all graphics to Analize market tendencies
